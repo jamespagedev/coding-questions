@@ -1,4 +1,6 @@
-write a function with arguments as follows:
+The purpose of this problem is to determine if you can find the create a contiguous `sub-array` by adding all the array elements between two specific indexes, to equal the `targetSum`. If this is possible, return a **string of both (index+1)** for the sub-array(see example output). If it's not possible, return a string of **-1**.
+
+### **write a function with arguments as follows:**
 - getSubArrayIndexes(Array arr, int arrLength, int targetSum)
 
 **Function Arguments:**
@@ -9,8 +11,6 @@ write a function with arguments as follows:
 **Function Return Types:**
 - `"int, int"` (ints greater than 0)
 - `"-1"` (default)
-
-The purpose of this problem is to determine if you can find the create a contiguous `sub-array` by adding all the array elements between two specific indexes, to equal the `targetSum`. If this is possible, return a **string of both (index+1)** for the sub-array(see example output). If it's not possible, return a string of **-1**.
 
 ### **Constraints:**
 - 1 <= arrLength <= 10^7
