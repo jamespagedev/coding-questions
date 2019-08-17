@@ -1,29 +1,43 @@
-#Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S.
+write a function with arguments as follows:
+- getSubArrayIndexes(Array arr, int arrLength, int targetSum)
 
-##Input:
-The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. The first line of each test case is N and S, where N is the size of array and S is the sum. The second line of each test case contains N space separated integers denoting the array elements.
+**Function Arguments:**
+- **arr**: an (unsorted) array of non-negative integers and non-zero's
+- **arrLength**: the length of the array
+- **targetSum**: the target sum of the contiguous sub-array within the array.
 
-##Output:
-For each testcase, in a new line, print the starting and ending positions(1 indexing) of first such occuring subarray from the left if sum equals to subarray, else print -1.
+**Function Return Types:**
+- `"int, int"` (ints greater than 0)
+- `"-1"` (default)
 
-Constraints:
-1 <= T <= 100
-1 <= N <= 107
-1 <= Ai <= 1010
+The purpose of this problem is to determine if you can find the create a contiguous `sub-array` by adding all the array elements between two specific indexes, to equal the `targetSum`. If this is possible, return a **string of both (index+1)** for the sub-array(see example output). If it's not possible, return a string of **-1**.
 
-Example:
-Input:
-2
-5 12
-1 2 3 7 5
-10 15
-1 2 3 4 5 6 7 8 9 10
-Output:
-2 4
-1 5
+### **Constraints:**
+- 1 <= arrLength <= 10^7
+- 1 <= element max int <= 10^10
 
-Explanation : 
-Testcase1: sum of elements from 2nd position to 4th position is 12
-Testcase2: sum of elements from 1st position to 5th position is 15
+### **Example:**
+***Input:***
+- The first line of each testcase is `arrLength` and `targetSum`.
+- The second line of each test case contains **integer elements**, within the `array`.
+- *Testcase1*
+  - 5 12
+  - 1 2 3 7 5
+- *Testcase2*
+  - 10 15
+  - 1 2 3 4 5 6 7 8 9 10
+- *Testcase3*
+  - 3 5
+  - 9 4 7
 
-** For More Input/Output Examples Use 'Expected Output' option **
+***Output:***
+- "2, 4"
+- "1, 5"
+- "-1"
+
+**Explanation:**
+- Testcase1: sum of elements from 2nd position to 4th position is 12
+- Testcase2: sum of elements from 1st position to 5th position is 15
+- Testcase3: no available sum to equal the target sum, therefor return -1
+
+problem originally received from: https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0#ExpectOP
