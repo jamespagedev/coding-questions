@@ -28,8 +28,6 @@ def get_sub_array_indexes_plus_one(arr, arr_length, target_sum):
     elif current_sum > target_sum:
       current_sum -= arr[left_index]
       left_index += 1
-      current_sum -= arr[right_index]
-      right_index -= 1
     else:
       right_index += 1
       current_sum += arr[right_index]
