@@ -2,3 +2,4 @@
 - https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
   - Arrays:
     - subarray-with-given-sum (easy)
+    - count-the-triplets (easy)

@@ -40,4 +40,4 @@ The purpose of this problem is to determine if you can find the create a contigu
 - Testcase2: sum of elements from 1st position to 5th position is 15
 - Testcase3: no available sum to equal the target sum, therefor return -1
 
-problem originally received from: https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0#ExpectOP
+problem originally received from: https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0
