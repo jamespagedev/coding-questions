@@ -1,7 +1,7 @@
 The purpose of this problem is to determine if you can find the create a contiguous `sub-array` by adding all the array elements between two specific indexes, to equal the `targetSum`. If this is possible, return a **string of both (index+1)** for the sub-array(see example output). If it's not possible, return a string of **-1**.
 
 ### **write a function with arguments as follows:**
-- getSubArrayIndexes(Array arr, int arrLength, int targetSum)
+- getSubArrayIndexesPlusOne(Array arr, int arrLength, int targetSum)
 
 **Function Arguments:**
 - **arr**: an (unsorted) array of non-negative integers and non-zero's
