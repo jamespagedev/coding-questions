@@ -30,8 +30,7 @@ Given an array of distinct integers. The task is to count all the triplets such 
 - -1
 
 **Explanation:**
-- Testcase1: sum of elements from 2nd position to 4th position is 12
-- Testcase2: sum of elements from 1st position to 5th position is 15
-- Testcase3: no available sum to equal the target sum, therefor return -1
+- Testcase 1: There are 2 triplets: 1 + 2 = 3 and 3 +2 = 5
+- Testcase 2: Returns -1: no triplets found
 
 problem originally received from: https://practice.geeksforgeeks.org/problems/count-the-triplets/0
