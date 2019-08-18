@@ -3,3 +3,4 @@
   - Arrays:
     - subarray-with-given-sum (easy)
     - count-the-triplets (easy)
+    - Kadane's Algorithm (medium)
