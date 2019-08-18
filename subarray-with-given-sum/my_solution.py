@@ -13,7 +13,7 @@ def get_sub_array_indexes_plus_one(arr, arr_length, target_sum):
   return "-1"
 '''
 
-# second pass solution o(n log n)
+# second pass solution o(n)
 def get_sub_array_indexes_plus_one(arr, arr_length, target_sum):
   in_check = True
   left_index = 0
@@ -33,7 +33,6 @@ def get_sub_array_indexes_plus_one(arr, arr_length, target_sum):
       current_sum += arr[right_index]
 
   return "-1"
-
 
 if __name__ == '__main__':
   arr = [1, 2, 3, 7, 5]
