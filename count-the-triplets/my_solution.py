@@ -15,6 +15,8 @@ def get_triplets(arr, arr_length):
   max_num = arr[arr_length - 1]
 
   for left_index in range(arr_length - 1):
+    if arr[left_index] + arr[left_index+1] > max_num:
+      break
     for right_index in range(left_index+1, arr_length):
       temp_sum = arr[left_index] + arr[right_index]
       if temp_sum > max_num:
