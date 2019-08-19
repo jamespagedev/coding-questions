@@ -33,4 +33,4 @@ Given an array of negative and positive integers, find the contiguous sub-array 
 - Testcase 1: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
 - Testcase 2: Returns -1: no sum exists greater than 0
 
-problem originally received from: https://practice.geeksforgeeks.org/problems/count-the-triplets/0
+problem originally received from: https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0

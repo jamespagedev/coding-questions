@@ -4,3 +4,5 @@
     - subarray-with-given-sum (easy)
     - count-the-triplets (easy)
     - Kadane's Algorithm (medium)
+- whiteboard pairing
+  - matrix transpose
