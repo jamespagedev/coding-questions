@@ -3,6 +3,7 @@
   - Arrays:
     - subarray-with-given-sum (easy)
     - count-the-triplets (easy)
-    - Kadane's Algorithm (medium)
+    - kadanes-algorithm (medium)
+    - missing-number-in-array (basic)
 - whiteboard pairing
   - matrix transpose
