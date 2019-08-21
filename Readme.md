@@ -5,5 +5,6 @@
     - count-the-triplets (easy)
     - kadanes-algorithm (medium)
     - missing-number-in-array (basic)
+    - merge-without-extra-space (hard)
 - whiteboard pairing
   - matrix transpose
