@@ -20,16 +20,12 @@ def custom_binary_sort(arr):
   arr.insert(insert_index+1, arr[0])
   del arr[0]
 
-
-
 def sort_arrays_numbers(s_arr_nums, l_arr_nums):
   # for i in smaller array
   for i in range(len(s_arr_nums)):
     if s_arr_nums[i] > l_arr_nums[0]:
       s_arr_nums[i], l_arr_nums[0] = l_arr_nums[0], s_arr_nums[i] # swap
       custom_binary_sort(l_arr_nums)
-
-
 
 def get_merged_array(arr1, arr2, arr1_length, arr2_length):
   # step1, re-arrange the numbers in both arrays... so the smaller numbers are in first array and larger numbers are in second array

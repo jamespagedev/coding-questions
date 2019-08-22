@@ -8,3 +8,7 @@
     - merge-without-extra-space (hard)
 - whiteboard pairing
   - matrix transpose
+- hackerrank (timed, so instructions may be sloppy)
+  - balanced-brackets
+  - fibonacci-sequence
+  - shifted-binary-search
